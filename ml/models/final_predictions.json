@@ -1,0 +1,308 @@
+{
+  "generated_at": "2025-05-25",
+  "leagues": {
+    "premier-league": {
+      "name": "Premier League",
+      "slug": "premier-league",
+      "champion": {
+        "team": "Man City",
+        "probability": 0.8525,
+        "ml_original": "Man City",
+        "ml_probability": 0.8525
+      },
+      "top4": [
+        {
+          "team": "Man City",
+          "probability": 0.8525
+        },
+        {
+          "team": "Brentford",
+          "probability": 0.0075
+        },
+        {
+          "team": "Arsenal",
+          "probability": 0.0075
+        },
+        {
+          "team": "Liverpool",
+          "probability": 0.005
+        }
+      ],
+      "top_scorer_team": "Man City",
+      "top_assists_team": "Everton",
+      "current_season": "2425",
+      "model_accuracy": 0.9704
+    },
+    "la-liga": {
+      "name": "La Liga",
+      "slug": "la-liga",
+      "champion": {
+        "team": "Barcelona",
+        "probability": 0.945,
+        "ml_original": "Barcelona",
+        "ml_probability": 0.945
+      },
+      "top4": [
+        {
+          "team": "Barcelona",
+          "probability": 0.945
+        },
+        {
+          "team": "Real Madrid",
+          "probability": 0.0425
+        },
+        {
+          "team": "Getafe",
+          "probability": 0.0025
+        },
+        {
+          "team": "Las Palmas",
+          "probability": 0.0
+        }
+      ],
+      "top_scorer_team": "Real Madrid",
+      "top_assists_team": "Celta",
+      "current_season": "2425",
+      "model_accuracy": 0.9593
+    },
+    "serie-a": {
+      "name": "Serie A",
+      "slug": "serie-a",
+      "champion": {
+        "team": "Roma",
+        "probability": 0.9325,
+        "ml_original": "Roma",
+        "ml_probability": 0.9325
+      },
+      "top4": [
+        {
+          "team": "Roma",
+          "probability": 0.9325
+        },
+        {
+          "team": "Napoli",
+          "probability": 0.03
+        },
+        {
+          "team": "Juventus",
+          "probability": 0.015
+        },
+        {
+          "team": "Atalanta",
+          "probability": 0.005
+        }
+      ],
+      "top_scorer_team": "Juventus",
+      "top_assists_team": "Fiorentina",
+      "current_season": "2425",
+      "model_accuracy": 0.9389
+    },
+    "bundesliga": {
+      "name": "Bundesliga",
+      "slug": "bundesliga",
+      "champion": {
+        "team": "Bayern Munich",
+        "probability": 0.98,
+        "ml_original": "Bayern Munich",
+        "ml_probability": 0.98
+      },
+      "top4": [
+        {
+          "team": "Bayern Munich",
+          "probability": 0.98
+        },
+        {
+          "team": "Dortmund",
+          "probability": 0.0075
+        },
+        {
+          "team": "Augsburg",
+          "probability": 0.0025
+        },
+        {
+          "team": "Holstein Kiel",
+          "probability": 0.0
+        }
+      ],
+      "top_scorer_team": "Bayern Munich",
+      "top_assists_team": "Bayern Munich",
+      "current_season": "2425",
+      "model_accuracy": 0.9894
+    },
+    "ligue-1": {
+      "name": "Ligue 1",
+      "slug": "ligue-1",
+      "champion": {
+        "team": "Paris SG",
+        "probability": 0.945,
+        "ml_original": "Paris SG",
+        "ml_probability": 0.945
+      },
+      "top4": [
+        {
+          "team": "Paris SG",
+          "probability": 0.945
+        },
+        {
+          "team": "Strasbourg",
+          "probability": 0.0375
+        },
+        {
+          "team": "Marseille",
+          "probability": 0.0175
+        },
+        {
+          "team": "Monaco",
+          "probability": 0.005
+        }
+      ],
+      "top_scorer_team": "Paris SG",
+      "top_assists_team": "Paris SG",
+      "current_season": "2425",
+      "model_accuracy": 0.9885
+    }
+  },
+  "global_trophies": {
+    "ballon_dor": {
+      "player": "Vinicius Jr",
+      "team": "Real Madrid",
+      "league": "La Liga",
+      "confidence": 0.42
+    },
+    "kopa_trophy": {
+      "player": "Lamine Yamal",
+      "team": "FC Barcelona",
+      "league": "La Liga",
+      "confidence": 0.55
+    },
+    "yashin_trophy": {
+      "player": "Emiliano Martinez",
+      "team": "Aston Villa",
+      "league": "Premier League",
+      "confidence": 0.38
+    },
+    "gerd_muller_trophy": {
+      "player": "Erling Haaland",
+      "team": "Manchester City",
+      "league": "Premier League",
+      "goals": 27,
+      "confidence": 0.45
+    },
+    "european_golden_boot": {
+      "player": "Erling Haaland",
+      "team": "Manchester City",
+      "league": "Premier League",
+      "goals": 27,
+      "confidence": 0.45
+    }
+  },
+  "champions_league": {
+    "winner": {
+      "team": "Real Madrid",
+      "league": "La Liga",
+      "probability": 0.28
+    },
+    "runner_up": {
+      "team": "Manchester City",
+      "league": "Premier League",
+      "probability": 0.18
+    },
+    "top_scorer": {
+      "player": "Erling Haaland",
+      "team": "Manchester City"
+    },
+    "final_venue": "Allianz Arena, Munich"
+  },
+  "per_league_trophies": {
+    "premier-league": {
+      "title": {
+        "team": "Man City",
+        "probability": 0.8525
+      },
+      "golden_boot": {
+        "player": "Erling Haaland",
+        "team": "Manchester City",
+        "goals": 27
+      },
+      "playmaker_award": {
+        "player": "Kevin De Bruyne",
+        "team": "Manchester City",
+        "assists": 16
+      },
+      "golden_glove": {
+        "player": "David Raya",
+        "team": "Arsenal",
+        "clean_sheets": 17
+      }
+    },
+    "la-liga": {
+      "title": {
+        "team": "Barcelona",
+        "probability": 0.945
+      },
+      "pichichi": {
+        "player": "Kylian Mbappe",
+        "team": "Real Madrid",
+        "goals": 25
+      },
+      "zamora": {
+        "player": "Inaki Pena",
+        "team": "FC Barcelona",
+        "goals_conceded_ratio": 0.68
+      },
+      "top_assists": {
+        "player": "Lamine Yamal",
+        "team": "FC Barcelona",
+        "assists": 14
+      }
+    },
+    "serie-a": {
+      "title": {
+        "team": "Roma",
+        "probability": 0.9325
+      },
+      "capocannoniere": {
+        "player": "Lautaro Martinez",
+        "team": "Inter Milan",
+        "goals": 22
+      },
+      "top_assists": {
+        "player": "Khvicha Kvaratskhelia",
+        "team": "Napoli",
+        "assists": 12
+      }
+    },
+    "bundesliga": {
+      "title": {
+        "team": "Bayern Munich",
+        "probability": 0.98
+      },
+      "torjaegerkanone": {
+        "player": "Harry Kane",
+        "team": "Bayern Munich",
+        "goals": 29
+      },
+      "top_assists": {
+        "player": "Florian Wirtz",
+        "team": "Bayer Leverkusen",
+        "assists": 15
+      }
+    },
+    "ligue-1": {
+      "title": {
+        "team": "Paris SG",
+        "probability": 0.945
+      },
+      "meilleur_buteur": {
+        "player": "Jonathan David",
+        "team": "LOSC Lille",
+        "goals": 24
+      },
+      "top_assists": {
+        "player": "Bradley Barcola",
+        "team": "Paris Saint-Germain",
+        "assists": 13
+      }
+    }
+  }
+}

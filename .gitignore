@@ -1,0 +1,40 @@
+# Dependencies
+frontend/node_modules/
+backend/vendor/
+
+# Build output
+frontend/dist/
+
+# Environment files
+.env
+backend/.env
+frontend/.env
+
+# ML artifacts
+ml/data/
+ml/models/*.joblib
+ml/models/*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Cache
+backend/bootstrap/cache/*.php
+!backend/bootstrap/cache/.gitkeep
+backend/storage/logs/*
+!backend/storage/logs/.gitkeep
+backend/storage/framework/cache/data/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+
+# PHP
+composer.phar
